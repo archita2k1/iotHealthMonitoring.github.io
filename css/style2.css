@@ -167,6 +167,24 @@ article .tests li a:hover {
   font-size: 20px;
   cursor: pointer;
 }
-.interact:hover {
+.emergency {
+  /* Rectangle 44 */
+
+  position: absolute;
+  width: 258px;
+  height: 54px;
+  left: 795px;
+  top: 340px;
+  border: 0;
+  background: #f80202;
+  color: white;
+  font-family: Sofia;
+  font-size: 20px;
+  cursor: pointer;
+}
+.interact:hover,
+.emergency:hover {
   text-decoration: underline;
+  border-radius: 10px;
+  font-weight: bold;
 }
