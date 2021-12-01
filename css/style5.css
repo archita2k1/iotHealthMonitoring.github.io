@@ -1,0 +1,221 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 100%;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+.logo {
+  /* Logo */
+
+  position: absolute;
+  width: 116px;
+  height: 65px;
+  left: 48px;
+
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #f80202;
+
+  transform: rotate(-15deg);
+}
+header ul {
+  /* Rectangle 14 */
+
+  position: absolute;
+  width: 923px;
+  height: 147px;
+  left: 236px;
+
+  background: linear-gradient(
+    91.05deg,
+    rgba(251, 227, 16, 0.85) 33.26%,
+    rgba(240, 16, 16, 0.816) 82.52%
+  );
+  border-radius: 30px;
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  width: 20%;
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center;
+  z-index: 2;
+}
+header .white {
+  /* Rectangle 20 */
+
+  position: absolute;
+  width: 181px;
+  height: 147px;
+  left: 1020px;
+  top: 16px;
+
+  background: #ffffff;
+  border-radius: 60px;
+  z-index: 1;
+}
+header ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Sofia;
+  font-style: italic;
+  font-weight: normal;
+}
+header a img {
+  /* Ellipse 5 */
+  z-index: 2;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  left: 1295.8px;
+
+  background: url(image.png);
+}
+header a div {
+  /* LogIn/SignUp */
+  z-index: 2;
+  position: absolute;
+  width: 216px;
+  height: 57px;
+  left: 1264px;
+  top: 105px;
+
+  font-family: Sofia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #e70c0c;
+}
+.news {
+  /* Rectangle 25 */
+
+  position: absolute;
+  width: 361px;
+  height: 587px;
+  left: 49px;
+  top: 202px;
+
+  background: rgba(196, 196, 196, 0.49);
+  border-radius: 30px;
+}
+.news h2 {
+  color: #000000;
+  padding-left: 80px;
+  font-size: 40px;
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+}
+.news img {
+  border-radius: 20px;
+  padding: 10px;
+}
+.feedback {
+  /* Rectangle 17 */
+
+  position: absolute;
+  width: 602px;
+  height: 261px;
+  left: 445px;
+  top: 536px;
+
+  background: #ea840e;
+  border-radius: 20px;
+}
+.plus {
+  position: absolute;
+  top: 100px;
+  left: 798px;
+  z-index: -2;
+}
+.feedback h2,
+p {
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 28px;
+  color: white;
+  padding-left: 20px;
+}
+.feedback input {
+  margin-left: 50px;
+  height: 30px;
+  margin-top: 20px;
+  width: 30em;
+  border: 0;
+  padding: 2px;
+  border-radius: 5px;
+}
+.feedback textarea {
+  width: 30em;
+  border: 0;
+  padding: 2px;
+  border-radius: 5px;
+}
+.features {
+  /* Rectangle 15 */
+
+  position: absolute;
+  width: 226px;
+  height: 580px;
+  left: 1138px;
+  top: 200px;
+
+  background: rgba(229, 217, 217, 0.43);
+  border-radius: 70px;
+}
+.features h2 {
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 40px;
+  text-decoration-line: underline;
+  color: #fd0606;
+  font-size: 29px;
+}
+.features ul {
+  font-family: Sofia;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  align-items: center;
+  list-style: none;
+  color: #000000;
+}
+.features li {
+  margin-bottom: 27px;
+  margin-left: -8px;
+}
+.signature {
+  /* TAKE CARE OF YOUR fAMILY’S HEALTH */
+
+  position: absolute;
+  width: 479px;
+  height: 207px;
+  left: 449px;
+  top: 256px;
+
+  font-family: Snippet;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 69px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #fc0d0d;
+}

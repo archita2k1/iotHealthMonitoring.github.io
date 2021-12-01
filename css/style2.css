@@ -1,0 +1,172 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 100%;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+.logo {
+  /* Logo */
+
+  position: absolute;
+  width: 116px;
+  height: 65px;
+  left: 48px;
+
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #f80202;
+
+  transform: rotate(-15deg);
+}
+header ul {
+  /* Rectangle 14 */
+
+  position: absolute;
+  width: 923px;
+  height: 147px;
+  left: 236px;
+
+  background: linear-gradient(
+    91.05deg,
+    rgba(251, 227, 16, 0.85) 33.26%,
+    rgba(240, 16, 16, 0.816) 82.52%
+  );
+  border-radius: 30px;
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  width: 20%;
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center;
+  z-index: 2;
+}
+header .white {
+  /* Rectangle 20 */
+
+  position: absolute;
+  width: 181px;
+  height: 147px;
+  left: 467px;
+  top: 16px;
+
+  background: #ffffff;
+  border-radius: 60px;
+  z-index: 1;
+}
+header ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Sofia;
+  font-style: italic;
+  font-weight: normal;
+}
+header a img {
+  /* Ellipse 5 */
+  z-index: 2;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  left: 1295.8px;
+
+  background: url(image.png);
+}
+header a div {
+  /* LogIn/SignUp */
+  z-index: 2;
+  position: absolute;
+  width: 216px;
+  height: 57px;
+  left: 1264px;
+  top: 105px;
+
+  font-family: Sofia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #e70c0c;
+}
+.plus {
+  position: absolute;
+  top: 100px;
+  left: 798px;
+  z-index: -2;
+}
+article {
+  /* Rectangle 43 */
+
+  position: absolute;
+  width: 1122px;
+  height: 499px;
+  left: 137px;
+  top: 190px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(234, 132, 14, 0.85) 0%,
+    rgba(228, 127, 10, 0.51) 100%
+  );
+  border-radius: 40px;
+}
+article h1 {
+  font-style: italic;
+  font-size: 35px;
+  margin-left: 75px;
+  margin-top: 40px;
+}
+article .tests {
+  /* Rectangle 45 */
+
+  position: absolute;
+  width: 520px;
+  height: 292px;
+  left: 70px;
+  top: 130px;
+  list-style: none;
+  background: #fdfbfb;
+  border-radius: 30px;
+}
+article .tests li {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px;
+}
+article .tests li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+article .tests li a:hover {
+  color: #e70c0c;
+}
+.interact {
+  /* Rectangle 44 */
+
+  position: absolute;
+  width: 258px;
+  height: 54px;
+  left: 795px;
+  top: 110px;
+  border: 0;
+  background: #0dc620;
+  color: white;
+  font-family: Sofia;
+  font-size: 20px;
+  cursor: pointer;
+}
+.interact:hover {
+  text-decoration: underline;
+}

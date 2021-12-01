@@ -1,0 +1,272 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 100%;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+.logo {
+  /* Logo */
+
+  position: absolute;
+  width: 116px;
+  height: 65px;
+  left: 48px;
+
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #f80202;
+
+  transform: rotate(-15deg);
+}
+header ul {
+  /* Rectangle 14 */
+
+  position: absolute;
+  width: 923px;
+  height: 147px;
+  left: 236px;
+
+  background: linear-gradient(
+    91.05deg,
+    rgba(251, 227, 16, 0.85) 33.26%,
+    rgba(240, 16, 16, 0.816) 82.52%
+  );
+  border-radius: 30px;
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  width: 20%;
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center;
+  z-index: 2;
+}
+header .white {
+  /* Rectangle 20 */
+
+  position: absolute;
+  width: 181px;
+  height: 147px;
+  left: 637px;
+  top: 16px;
+
+  background: #ffffff;
+  border-radius: 60px;
+  z-index: 1;
+}
+header ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Sofia;
+  font-style: italic;
+  font-weight: normal;
+}
+header a img {
+  /* Ellipse 5 */
+  z-index: 2;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  left: 1295.8px;
+
+  background: url(image.png);
+}
+header a div {
+  /* LogIn/SignUp */
+  z-index: 2;
+  position: absolute;
+  width: 216px;
+  height: 57px;
+  left: 1264px;
+  top: 105px;
+
+  font-family: Sofia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #e70c0c;
+}
+.plus {
+  position: absolute;
+  top: 100px;
+  left: 798px;
+  z-index: -9;
+}
+.members {
+  /* Rectangle 24 */
+
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  left: 417px;
+  top: 181px;
+  /* z-index: -2; */
+  background: linear-gradient(
+    91.74deg,
+    rgba(251, 227, 16, 0.85) 32.35%,
+    rgba(240, 16, 16, 0.85) 77.06%
+  );
+  border-radius: 30px;
+  list-style: none;
+  display: flex;
+}
+.members img {
+  position: relative;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  margin-top: 17px;
+  margin-right: 65px;
+  margin-left: 8px;
+  z-index: 9;
+}
+.members img:hover {
+  /* background: rgba(0, 0, 0, 0.486); */
+  /* opacity: 0.2; */
+  border: #000000 2px solid;
+}
+.white {
+  /* Rectangle 25 */
+
+  position: absolute;
+  width: 102px;
+  height: 100px;
+  left: 865px;
+  top: 197px;
+  /* z-index: -2; */
+  background: #ffffff;
+  border-radius: 60px;
+}
+.profile {
+  /* Rectangle 39 */
+
+  position: absolute;
+  width: 272px;
+  height: 361px;
+  left: 73px;
+  top: 332px;
+
+  background: rgba(234, 132, 14, 0.94);
+  border-radius: 20px;
+}
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.profile ul {
+  list-style: none;
+  color: white;
+  font-size: 30px;
+}
+.profile li {
+  margin-bottom: 10px;
+}
+article .bod_temp,
+article .bmi,
+article .body_oxy {
+  /* Rectangle 31 */
+
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 421px;
+  top: 465px;
+
+  background: rgba(234, 132, 14, 0.91);
+  border-radius: 20px;
+}
+article .bmi {
+  /* Rectangle 42 */
+  left: 630px;
+  top: 336px;
+}
+.bmi p {
+  margin-left: 70px;
+}
+article .body_oxy {
+  /* Rectangle 32 */
+  left: 840px;
+  top: 465px;
+}
+article img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 38px;
+  margin-top: 10px;
+}
+article p {
+  font-size: 20px;
+  margin-left: 50px;
+}
+.ailments {
+  /* Rectangle 41 */
+
+  position: absolute;
+  width: 607px;
+  height: 139px;
+  left: 388px;
+  top: 653px;
+  margin-bottom: 10px;
+  background: rgba(234, 132, 14, 0.91);
+  border-radius: 20px;
+}
+.ailments h2 {
+  color: red;
+  font-style: italic;
+  margin-left: 2em;
+}
+.ailments ul {
+  list-style: none;
+  display: flex;
+  color: white;
+  font-size: 30px;
+}
+.ailments li {
+  margin-right: 2em;
+  font-style: italic;
+}
+.medications {
+  /* Rectangle 40 */
+
+  position: absolute;
+  width: 299px;
+  height: 468px;
+  left: 1145px;
+  top: 200px;
+  background: rgba(234, 132, 14, 0.9);
+  border-radius: 20px;
+  color: white;
+  font-style: italic;
+}
+.medications h1 {
+  margin-left: 50px;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.medications ul {
+  list-style: none;
+}
+.medications li {
+  font-size: 4vh;
+  margin-bottom: 30px;
+  width: 170px;
+  margin-left: 40px;
+}

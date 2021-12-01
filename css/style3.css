@@ -1,0 +1,228 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 100%;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+.logo {
+  /* Logo */
+
+  position: absolute;
+  width: 116px;
+  height: 65px;
+  left: 48px;
+
+  font-family: Snippet;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #f80202;
+
+  transform: rotate(-15deg);
+}
+header ul {
+  /* Rectangle 14 */
+
+  position: absolute;
+  width: 923px;
+  height: 147px;
+  left: 236px;
+
+  background: linear-gradient(
+    91.05deg,
+    rgba(251, 227, 16, 0.85) 33.26%,
+    rgba(240, 16, 16, 0.816) 82.52%
+  );
+  border-radius: 30px;
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  width: 20%;
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center;
+  z-index: 2;
+}
+header .white {
+  /* Rectangle 20 */
+
+  position: absolute;
+  width: 181px;
+  height: 147px;
+  left: 637px;
+  top: 16px;
+
+  background: #ffffff;
+  border-radius: 60px;
+  z-index: 1;
+}
+header ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Sofia;
+  font-style: italic;
+  font-weight: normal;
+}
+header a img {
+  /* Ellipse 5 */
+  z-index: 2;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  left: 1295.8px;
+
+  background: url(image.png);
+}
+header a div {
+  /* LogIn/SignUp */
+  z-index: 2;
+  position: absolute;
+  width: 216px;
+  height: 57px;
+  left: 1264px;
+  top: 105px;
+
+  font-family: Sofia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #e70c0c;
+}
+.plus {
+  position: absolute;
+  top: 100px;
+  left: 798px;
+  z-index: -2;
+}
+.members {
+  /* Rectangle 24 */
+
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  left: 417px;
+  top: 181px;
+
+  background: linear-gradient(
+    91.74deg,
+    rgba(251, 227, 16, 0.85) 32.35%,
+    rgba(240, 16, 16, 0.85) 77.06%
+  );
+  border-radius: 30px;
+  list-style: none;
+  display: flex;
+}
+.members img {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  margin-top: 17px;
+  margin-right: 65px;
+  margin-left: 8px;
+}
+.members img:hover {
+  /* background: rgba(0, 0, 0, 0.486); */
+  opacity: 0.2;
+}
+.famdes,
+.herdes {
+  /* Rectangle 29 */
+
+  position: absolute;
+  width: 400px;
+  height: 220px;
+  left: 200px;
+  top: 340px;
+  color: white;
+  background: rgba(234, 132, 14, 0.91);
+  border-radius: 20px;
+}
+.herdes {
+  left: 800px;
+}
+.famdes h2,
+.herdes h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+  padding-left: 55px;
+}
+.herdes h2 {
+  font-size: 25px;
+}
+.famdes ul,
+.herdes ul {
+  list-style: none;
+  padding-left: 70px;
+  font-size: 25px;
+}
+.famdes li {
+  padding-bottom: 30px;
+}
+
+.herdes li {
+  padding-bottom: 12px;
+}
+.room_temp {
+  /* Rectangle 31 */
+
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  left: 234px;
+  top: 583px;
+  font-size: 23px;
+  background: rgba(234, 132, 14, 0.91);
+  border-radius: 20px;
+}
+.oxy_level {
+  /* Rectangle 32 */
+
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  left: 628px;
+  top: 583px;
+  font-size: 23px;
+  background: rgba(234, 132, 14, 0.91);
+  border-radius: 20px;
+}
+.poll_level {
+  /* Rectangle 33 */
+
+  position: absolute;
+  width: 190px;
+  height: 178px;
+  left: 1038px;
+  top: 583px;
+  font-size: 23px;
+  background: rgba(234, 132, 14, 0.91);
+  border-radius: 20px;
+}
+.room_temp img,
+.oxy_level img,
+.poll_level img {
+  border-radius: 50%;
+  width: 80px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.poll_level img {
+  height: 70px;
+}
+.room_temp p,
+.oxy_level p,
+.poll_level p {
+  margin-left: 60px;
+}
