@@ -132,8 +132,7 @@ header a div {
   margin-left: 8px;
 }
 .members img:hover {
-  /* background: rgba(0, 0, 0, 0.486); */
-  opacity: 0.2;
+  border: #000000 2px solid;
 }
 .famdes,
 .herdes {
@@ -186,7 +185,7 @@ header a div {
   background: rgba(234, 132, 14, 0.91);
   border-radius: 20px;
 }
-.oxy_level {
+.humid {
   /* Rectangle 32 */
 
   position: absolute;
@@ -211,7 +210,7 @@ header a div {
   border-radius: 20px;
 }
 .room_temp img,
-.oxy_level img,
+.humid img,
 .poll_level img {
   border-radius: 50%;
   width: 80px;
@@ -222,7 +221,7 @@ header a div {
   height: 70px;
 }
 .room_temp p,
-.oxy_level p,
+.humid p,
 .poll_level p {
   margin-left: 60px;
 }
