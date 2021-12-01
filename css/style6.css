@@ -177,9 +177,9 @@ header a div {
 .profile li {
   margin-bottom: 10px;
 }
-article .bod_temp,
-article .bmi,
-article .body_oxy {
+article .hrt_rate,
+article .b_pres,
+article .spo2 {
   /* Rectangle 31 */
 
   position: absolute;
@@ -191,15 +191,15 @@ article .body_oxy {
   background: rgba(234, 132, 14, 0.91);
   border-radius: 20px;
 }
-article .bmi {
+article .b_pres {
   /* Rectangle 42 */
   left: 630px;
   top: 336px;
 }
-.bmi p {
-  margin-left: 70px;
+.b_pres p {
+  margin-left: 40px;
 }
-article .body_oxy {
+article .spo2 {
   /* Rectangle 32 */
   left: 840px;
   top: 465px;
